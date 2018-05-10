@@ -1,0 +1,56 @@
+/**
+ * @author Frank Dip
+ * @desc CSS for portfolio
+ */
+
+body {
+  padding-top: 70px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+/** header section */
+.pu-header {
+  padding-bottom: 10px;
+}
+
+.pu-header::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.pu-header--logo {
+  max-width: 100px;
+  float: left;
+}
+
+.pu-content {
+  margin: 30px auto;
+}
+
+/** main image */
+.pu-main--img {
+  width: 100%;
+  opacity: 0.8;
+}
+
+/** featured work */
+.pu-fw-img {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.pu-contact--social {
+  padding: 10px;
+  margin: 10px;
+}
+
+/** footer section */
+.pu-footer {
+  background: grey;
+  padding: 20px;
+  margin: 20px 0 0 0;
+}
